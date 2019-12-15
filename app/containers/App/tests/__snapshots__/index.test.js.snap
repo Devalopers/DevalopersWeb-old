@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Register)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Developer/Register"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Login)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Developer/Login"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Loading"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Developer/Forgotpassword"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Developer/ViewProfile"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Jobs/JobsDashboard"
+      />
+      <Route
+        component={[Function]}
+        path="/Jobs/:id"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Login)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Admin/Login"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Register)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Admin/Register"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Admin/Forgotpassword"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Admin/profile"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Register)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Company/Register"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Login)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Company/Login"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(ForgotPassword)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/Company/forgotpassword"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/Company/Post/Job"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+    <GlobalStyleComponent />
+  </BrowserRouter>
+</Provider>
+`;
